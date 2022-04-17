@@ -1,0 +1,58 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container_header{
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 53px;
+}
+
+.container_ul{
+    text-align: center;
+}
+
+.container_li{
+    display: inline-block;
+    margin-right: 45px;
+}
+
+.container_li > a{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.bg_img{
+    background-image: url(./img/pexels-harrison-candlin-2441454\ 1.png);
+    margin-top: 52px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg_text{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 138px 265px 0px 265px;
+}
+
+.button{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #162C38;
+    padding: 10px 122px;
+    margin: 14px 440px 180px 440px;
+    text-align: center;
+    border: 1px solid;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
