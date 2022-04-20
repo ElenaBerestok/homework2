@@ -57,3 +57,143 @@ body{
     border-radius: 5px;
 }
 
+.container_section{
+    background: rgba(26, 110, 136, 0.71);
+    padding: 133px;
+}
+
+.text-section{
+    text-align: center;
+    max-width: 726px;
+    margin: 0 auto;
+}
+
+.p-text{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.section_element{
+    margin: 221px 0;
+    position: relative;
+}
+
+.div_element_first{
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    left: 0px;
+    top: -120px;
+}
+
+.div_element_second{
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    right: 0px;
+    top: 0px;
+}
+
+.div_element_third{
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    left: 0px;
+    top: 130px;
+}
+
+.div_p_first{
+    max-width: 696px;
+   margin: 221px auto;
+}
+
+.p_first{
+    max-width: 696px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+}
+
+.p_second{
+    max-width: 696px;
+    margin: 216px auto;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.p_second::before{
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    background: #5C98AB;
+    border-radius: 50%;
+    left: -30px;
+    top: -50px;
+}
+
+.p_second::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: #BFDEFB;
+    border-radius: 50%;
+    right: -150px;
+}
+
+.container_div{
+    max-width: 647px;
+    margin: 123px auto;
+}
+
+.input, .input_div{
+    width: 100%;
+}
+
+.input_div{
+    margin-bottom: 41px;
+    position: relative;
+}
+
+.input{
+    padding: 36px 0px 11px 34px;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 36px;
+}
+
+.input::placeholder{
+    color: #000000;
+}
+
+.label{
+    position: absolute;
+    top: 10px;
+    left: 36px;
+}
+
+.button_FREE_PRE-ORDER{
+    background: #5C98AB;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    font-size: 36px;
+    border-radius: 4px;
+    padding: 21px 150px;
+}
